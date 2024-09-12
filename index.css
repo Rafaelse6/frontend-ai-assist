@@ -21,7 +21,13 @@
     gap: 40px;
 }
 
-.cabecalho__navegacao--item {
+.cabecalho__navegacao--lista {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.cabecalho__navegacao--item a {
     color: var(--branco);
     font-size: 24px;
     font-style: normal;
@@ -352,7 +358,8 @@ span.material-symbols-outlined {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
+    /* 160% */
 }
 
 .footer__social-media-container {
