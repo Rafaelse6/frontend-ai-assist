@@ -77,6 +77,15 @@
     margin-bottom: 64px;
 }
 
+.busca__titulo h2 {
+    font-size: 32px;
+}
+
+.destinos__titulo {
+    margin-top: 64px;
+    font-size: 32px;
+}
+
 .depoimentos__titulo--sublinhado,
 .pagamento__titulo--sublinhado,
 .destinos__titulo--sublinhado,
@@ -167,6 +176,7 @@ img {
     padding: 16px 48px;
     box-sizing: border-box;
     display: inline-block;
+    cursor: pointer;
 }
 
 .destinos__item--botao-texto,
@@ -186,6 +196,7 @@ img {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-size: 32px;
 }
 
 .busca__categoria {
@@ -242,6 +253,7 @@ span.material-symbols-outlined {
     align-items: stretch;
     gap: 24px;
     margin-bottom: 112px;
+    list-style: none;
 }
 
 .destinos__item {
@@ -262,6 +274,7 @@ span.material-symbols-outlined {
     font-weight: 700;
     line-height: normal;
     margin: 24px 0;
+    margin-bottom: 4px;
 }
 
 .destinos__item--descricao {
